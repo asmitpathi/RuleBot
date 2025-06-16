@@ -1,7 +1,0 @@
-Rulebot is a conversational AI that learns about earth from the user. It uses basic string matching and regular expressions module to identify user's intent and based on it, gives an appropriate response. It also incorporates randomness to generate dynamic and engaging interactions. 
-First, it greets the user and finds out if the user wants to have a conversation.
-if the user agrees, the bot initiates the conversation by asking a random question. Else it ends the conversation gracefully.
-The user inputs a response and the bot matches the input to a pre defined intent using regular expressions in the allienable dictionary. The keys of the dictionary contain the types of intent(planet intent, why intent, vit intent, etc) and the values contain the regex to match.
-The bot then matches the user reply with the regex and determine the intent type based on the allienable dictionary. 
-The bot gives appropriate response based on the functions defined. The functions are based on the intent. Each function contains a list of responses for a particular intent from which a response is randomly selected.
-The process continues until the user inputs an exit command and then the conversation is ended gracefully.
